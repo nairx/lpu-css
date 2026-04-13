@@ -1,0 +1,94 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        width: 100%;
+      }
+      table,
+      th {
+        border: 1px solid gray;
+      }
+      td {
+        padding: 5px;
+      }
+      tr:hover {
+        background-color: yellow;
+        font-weight: bold;
+      }
+      tr:nth-child(even) {
+        background-color: gray;
+      }
+      .score {
+        text-align: right;
+      }
+      thead{
+        background-color: orange;
+      }
+      tbody{
+        background-color: lightgray;
+      }
+      tfoot{
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Skill</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>john@gmail.com</td>
+          <td>Java</td>
+          <td class="score">92%</td>
+        </tr>
+        <tr>
+          <td>Cathy</td>
+          <td>cathy@gmail.com</td>
+          <td>.NET</td>
+          <td class="score">90%</td>
+        </tr>
+        <tr>
+          <td>Mike</td>
+          <td>mike@gmail.com</td>
+          <td>JavaScript</td>
+          <td class="score">72%</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>john@gmail.com</td>
+          <td>Java</td>
+          <td class="score">92%</td>
+        </tr>
+        <tr>
+          <td>Cathy</td>
+          <td>cathy@gmail.com</td>
+          <td>.NET</td>
+          <td class="score">90%</td>
+        </tr>
+        <tr>
+          <td>Mike</td>
+          <td>mike@gmail.com</td>
+          <td>JavaScript</td>
+          <td class="score">72%</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Average</td>
+          <td class="score">70%</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
