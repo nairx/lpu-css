@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+   ul{
+    background-color: yellow;
+   }
+
+      li {
+        display: inline-block;
+      }
+      .submenu {
+        display: none;
+        position: absolute;
+      }
+      .menu:hover .submenu {
+        display: block;
+      }
+
+      .submenu a{
+        background-color: yellow;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Home</li>
+      <li class="menu">
+        Courses
+        <div class="submenu">
+          <a href="#">Java</a><br />
+          <a href="#">Python</a><br />
+          <a href="#">.NET</a>
+        </div>
+      </li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </body>
+</html>
