@@ -4,29 +4,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        div{
-            width: 100%;
-            height: 300px;
-        }
+      .row {
+        width: 100%;
+        height: 300px;
+      }
       .hero-image {
         background-image: url("2.png");
+        background-size: cover;
       }
       .hero-text {
         position: absolute;
+        background-color: white;
+        opacity: 0.5;
         top: 50%;
         left: 50%;
         text-align: center;
+        color:black;
         transform: translate(-50%, -50%);
       }
     </style>
-  </head>
-  <body>
-    <div class="hero-text hero-image">
-      <h1>Hello World</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam illum amet
-        vitae quasi vel reiciendis reprehenderit ratione natus aspernatur ad.
-      </p>
+  </head >
+  <body class="hero-image">
+    <div class="row">
+      <div class="hero-text">
+        <h1>Hello World</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam illum
+          amet vitae quasi vel reiciendis reprehenderit ratione natus aspernatur
+          ad.
+        </p>
+      </div>
     </div>
   </body>
 </html>
